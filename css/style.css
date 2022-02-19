@@ -33,6 +33,7 @@ html {
 }
 
 body {
+    padding: 7rem 0px 7rem 0px;
     background-color: var(--very-light-gray);
 }
 
@@ -45,7 +46,7 @@ body {
 /* HEADER */
 #header {
     text-align: center;
-    margin: 7rem auto 7rem auto;
+    margin: 0px auto 7rem auto;
 }
 
 /* MAIN HEADING */
