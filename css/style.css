@@ -39,19 +39,17 @@ body {
 /* CONTAINER CLASS */
 .container {
     margin: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0px 1rem 0px 1rem;
 }
 
 /* HEADER */
 #header {
     text-align: center;
-    margin-bottom: 7rem;
+    margin: 7rem auto 7rem auto;
 }
 
 /* MAIN HEADING */
 #main-heading {
-    margin-top: 10rem;
     font-weight: var(--font-200);
     font-size: clamp(2rem, 5vw, 4.5rem);
 }
@@ -126,6 +124,5 @@ body {
 /* FEATURES IMAGE */
 .features-image {
     display: block;
-    margin-left: auto;
-    margin-top: 4.5rem;
+    margin: 4.5rem 0px 0px auto;
 }
