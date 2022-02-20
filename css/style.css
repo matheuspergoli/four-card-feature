@@ -74,6 +74,7 @@ body {
 #main-content {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2.5rem;
 }
 
@@ -95,6 +96,7 @@ body {
 /* FEATURES */
 .features {
     height: 25rem;
+    flex: 1 1 25rem;
     padding: 2.5rem;
     max-width: 36rem;
     border-radius: 0.5rem;
